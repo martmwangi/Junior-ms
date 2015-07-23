@@ -5,15 +5,21 @@ his = 76
 geo = 82
 
 
-sum = math + eng +kis + his + geo
+sum = math + eng + kis + his + geo
 puts sum
-
+=begin
+If statement for identifying if sum
+is even
+=end
  if
      sum % 2 == 0
      puts "It is even"
 else
     puts "Not even"
 end
+=begin
+if statement for grading sum
+=end
 if
     sum <= 299
     puts "Failed"
