@@ -8,5 +8,5 @@ for num in (1..100) do
     else
         puts num
     end
-    num = num + 1
+    
 end
